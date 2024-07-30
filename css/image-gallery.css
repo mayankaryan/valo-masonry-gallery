@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(64, 79, 80);
+	padding: 15px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.div-vert {
+    grid-row: span 2;
+}
+.div-hor img {
+    
+}
+.main-container > div > img {
+    object-fit: cover;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
